@@ -1,12 +1,8 @@
 # OIBSIP – Python Programming Internship
 
 Welcome to my GitHub repository for the **Oasis Infobyte Internship (OIBSIP)**.
-This repository contains the Python projects I completed as part of my internship. 
-The main goal of these tasks was to improve my practical programming skills by 
-building working applications and learning how different Python concepts and 
-libraries are used in real projects.
-I completed three tasks from the **Python Programming track**, focusing on the 
-Advanced Tier features.
+This repository contains the Python projects I completed as part of my internship. The main goal of these tasks was to improve my practical programming skills by building working applications and learning how different Python concepts and libraries are used in real projects.
+I completed three tasks from the **Python Programming track**, focusing on the Advanced Tier features.
 
 ## Internship Details
 
@@ -22,10 +18,7 @@ Advanced Tier features.
 
 **Folder:** `Python-L2-Task1-VoiceAssistant`
 
-This project is a simple Python-based voice assistant that listens to voice
-commands and responds using text-to-speech.
-I created this project to learn how Python can interact with users through
-voice and perform useful tasks based on spoken commands.
+This project is a simple Python-based voice assistant that listens to voice commands and responds using text-to-speech. I created this project to learn how Python can interact with users through voice and perform useful tasks based on spoken commands.
 
 ### Features
 
@@ -54,10 +47,7 @@ voice and perform useful tasks based on spoken commands.
 
 **Folder:** `Python-L2-Task4-WeatherApp`
 
-This project is a graphical weather application that uses the OpenWeatherMap
-API to retrieve current weather information for a city.
-The main focus of this project was learning how to work with an external API
-and display the returned information in a simple and easy-to-use GUI.
+This project is a graphical weather application that uses the OpenWeatherMap API to retrieve current weather information for a city. The main focus of this project was learning how to work with an external API and display the returned information in a simple and easy-to-use GUI.
 
 ### Features
 
@@ -86,12 +76,7 @@ and display the returned information in a simple and easy-to-use GUI.
 
 **Folder:** `Python-L2-Task5-ChatApplication`
 
-This project is a simple client-server chat application built using Python
-socket programming.
-The application allows multiple clients to connect to a server and exchange
-messages in real time.
-I built this project to understand how network communication works between
-different programs.
+This project is a simple client-server chat application built using Python socket programming. The application allows multiple clients to connect to a server and exchange messages in real time. I built this project to understand how network communication works between different programs.
 
 ### Features
 
@@ -117,9 +102,7 @@ different programs.
 
 ##  What I Learned
 
-Working on these projects gave me practical experience with different areas
-of Python programming.
-
+Working on these projects gave me practical experience with different areas of Python programming.
 During the internship, I learned about:
 
 - Python GUI development
@@ -135,8 +118,7 @@ During the internship, I learned about:
 - Organizing projects on GitHub
 - Writing project documentation
 
-These tasks also helped me understand how individual Python concepts can be
-combined to build complete applications.
+These tasks also helped me understand how individual Python concepts can be combined to build complete applications.
 
 ## Main Technologies
 
@@ -178,19 +160,12 @@ OIBSIP/
 
 ## API Keys
 
-The Weather App uses the OpenWeatherMap API.
-For security reasons, API keys is not uploaded directly to GitHub.
-API key is required, it is stored locally or through an environment
-variable rather than being committed to the repository.
+The Weather App uses the OpenWeatherMap API. For security reasons, API keys is not uploaded directly to GitHub. API key is required, it is stored locally or through an environment variable rather than being committed to the repository.
 
 ## Acknowledgement
 
-I would like to thank **Oasis Infobyte** for providing this internship 
-opportunity and the project requirements.
-
-These tasks gave me an opportunity to practice Python through practical 
-projects and helped me become more confident in building, testing, documenting, 
-and sharing applications.
+I would like to thank **Oasis Infobyte** for providing this internship opportunity and the project requirements.
+These tasks gave me an opportunity to practice Python through practical projects and helped me become more confident in building, testing, documenting, and sharing applications.
 
 ## Internship Submission
 
