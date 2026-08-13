@@ -5,7 +5,6 @@ This repository contains the Python projects I completed as part of my internshi
 I completed three tasks from the **Python Programming track**, focusing on the Advanced Tier features.
 
 ## Internship Details
-
 - **Organization:** Oasis Infobyte
 - **Program:** Internship
 - **Track:** Python Programming
@@ -15,13 +14,11 @@ I completed three tasks from the **Python Programming track**, focusing on the A
 ## Projects
 
 ### Task 1 – Voice Assistant
-
 **Folder:** `Python-L2-Task1-VoiceAssistant`
 
 This project is a simple Python-based voice assistant that listens to voice commands and responds using text-to-speech. I created this project to learn how Python can interact with users through voice and perform useful tasks based on spoken commands.
 
 ### Features
-
 - Voice input using a microphone
 - Text-to-speech responses
 - Greeting and help commands
@@ -34,7 +31,6 @@ This project is a simple Python-based voice assistant that listens to voice comm
 - Basic error handling
 
 ### Technologies Used
-
 - Python
 - SpeechRecognition
 - pyttsx3
@@ -44,13 +40,11 @@ This project is a simple Python-based voice assistant that listens to voice comm
 - SMTP
 
 ### Task 4 – Weather App
-
 **Folder:** `Python-L2-Task4-WeatherApp`
 
 This project is a graphical weather application that uses the OpenWeatherMap API to retrieve current weather information for a city. The main focus of this project was learning how to work with an external API and display the returned information in a simple and easy-to-use GUI.
 
 ### Features
-
 - Search weather by city
 - Current temperature
 - Celsius/Fahrenheit toggle
@@ -65,7 +59,6 @@ This project is a graphical weather application that uses the OpenWeatherMap API
 - Invalid city handling
 
 ### Technologies Used
-
 - Python
 - Tkinter
 - Requests
@@ -73,13 +66,11 @@ This project is a graphical weather application that uses the OpenWeatherMap API
 - OpenWeatherMap API
 
 ### Task 5 – Chat Application
-
 **Folder:** `Python-L2-Task5-ChatApplication`
 
 This project is a simple client-server chat application built using Python socket programming. The application allows multiple clients to connect to a server and exchange messages in real time. I built this project to understand how network communication works between different programs.
 
 ### Features
-
 - Client-server architecture
 - TCP socket communication
 - Multiple clients
@@ -92,7 +83,6 @@ This project is a simple client-server chat application built using Python socke
 - Basic connection error handling
 
 ### Technologies Used
-
 - Python
 - Socket Programming
 - TCP/IP
@@ -104,7 +94,6 @@ This project is a simple client-server chat application built using Python socke
 
 Working on these projects gave me practical experience with different areas of Python programming.
 During the internship, I learned about:
-
 - Python GUI development
 - Speech recognition and text-to-speech
 - Working with external APIs
@@ -117,11 +106,9 @@ During the internship, I learned about:
 - Working with Python libraries
 - Organizing projects on GitHub
 - Writing project documentation
-
 These tasks also helped me understand how individual Python concepts can be combined to build complete applications.
 
 ## Main Technologies
-
 - Python
 - Tkinter
 - SpeechRecognition
