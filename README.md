@@ -1,167 +1,154 @@
-# CODSOFT_TASKSNO
-My AI Internship tasks.
-# Artificial Intelligence Internship
+# OIBSIP – Python Programming Internship
 
-Welcome to my Artificial Intelligence Internship repository.
-This repository contains the projects I am developing as part of my Artificial Intelligence internship. The current tasks focus on building practical applications with Python and understanding the programming concepts, libraries, APIs, databases, and problem-solving skills that are useful in AI development.
-I am completing the projects step by step, starting with Python-based applications and gradually working with more advanced features and technologies.
+Welcome to my GitHub repository for the **Oasis Infobyte Internship (OIBSIP)**.
+This repository contains the Python projects I completed as part of my internship. 
+The main goal of these tasks was to improve my practical programming skills by 
+building working applications and learning how different Python concepts and 
+libraries are used in real projects.
+I completed three tasks from the **Python Programming track**, focusing on the 
+Advanced Tier features.
 
-## Projects
+## Internship Details
 
-### Task 2 — BMI Calculator
+- **Organization:** Oasis Infobyte
+- **Program:** Internship
+- **Track:** Python Programming
+- **Level:** Level 2 – Advanced
+- **Tasks Completed:** 3
+- ## 📂 Projects
 
-A GUI-based BMI Calculator developed using Python.
-The application allows users to calculate their BMI, classify the result, save records, and view BMI trends over time.
+### 1. BMI Calculator
 
-**Features:**
-* Calculate BMI using weight and height
-* BMI classification
-* Input validation and error handling
-* User-friendly graphical interface
-* Support for multiple users
-* Store BMI records using SQLite
-* View previous BMI records
-* Display BMI trends using a graph
+**Folder:** `Python-L2-BMICalculator`
 
-**Technologies used:**
-* Python
-* Tkinter
-* SQLite
-* Matplotlib
-
-Project folder: `Task_2-BMI_Calculator`
----
-
-### Task 3 — Random Password Generator
-
-A Python application for generating strong and secure random passwords based on user-selected requirements.
-The project focuses on secure random generation, user input handling, password strength, and GUI development.
+A graphical BMI calculator built using Python. It allows users to enter their 
+weight and height, calculate their BMI, and view their BMI category.
 
 **Features:**
-* Custom password length
-* Uppercase and lowercase letters
-* Numbers and symbols
-* Secure password generation using Python's `secrets` module
-* Password strength indicator
-* Copy password to clipboard
-* Option to exclude ambiguous characters
-* Recent password generation history
+- User-friendly GUI
+- BMI calculation
+- BMI category classification
+- Input validation
+- Colour-coded results
+- Multiple-user support
+- SQLite database storage
+- BMI history
+- BMI trend graph using Matplotlib
+- Database error handling
 
-**Technologies used:**
-* Python
-* Tkinter
-* `secrets`
-* `pyperclip`
+**Technologies:** Python, Tkinter, SQLite, Matplotlib
 
-Project folder: `Task_3-Random_Password_Generator`
----
+### 2. Random Password Generator
 
-### Task 4 — Weather App
+**Folder:** `Python-L2-RandomPasswordGenerator`
 
-A Python application that retrieves real-time weather information using a weather API.
-The project demonstrates API integration, JSON data processing, GUI development, and handling real-world data.
+A password generator that creates strong and customizable passwords based on 
+the user's requirements.
 
 **Features:**
-* Search weather by city
-* Current temperature
-* Humidity
-* Weather condition
-* Wind speed
-* Weather icons
-* Hourly forecast
-* Five-day forecast
-* Celsius/Fahrenheit conversion
-* API and network error handling
+- Custom password length
+- Uppercase and lowercase letters
+- Numbers and symbols
+- Secure password generation using `secrets`
+- Password strength indicator
+- Copy password to clipboard
+- Exclude ambiguous characters
+- Password generation history
+- GUI interface
 
-**Technologies used:**
-* Python
-* Tkinter
-* Requests
-* OpenWeatherMap API
+**Technologies:** Python, Tkinter, Secrets, String, Pyperclip
 
-Project folder: `Task_4-Weather_App`
+### 3. Weather App
 
----
+**Folder:** `Python-L2-WeatherApp`
+
+A graphical weather application that retrieves real-time weather information 
+using the OpenWeatherMap API.
+
+**Features:**
+- Search weather by city
+- Current temperature
+- Celsius/Fahrenheit toggle
+- Humidity and wind speed
+- Weather condition description
+- Weather icons
+- Hourly forecast
+- Five-day forecast
+- Automatic location detection
+- API and network error handling
+
+**Technologies:** Python, Tkinter, Requests, JSON, OpenWeatherMap API, Pillow
+
+##  What I Learned
+
+These projects helped me gain practical experience in Python programming and 
+application development.
+
+During the internship, I worked with:
+
+- Python GUI development
+- Input validation and error handling
+- SQLite databases
+- External APIs
+- JSON data
+- Data visualization
+- Secure password generation
+- Clipboard integration
+- Project documentation
+- Git and GitHub
+
+I also learned how to break a project into smaller features and build each 
+feature step by step.
+
+## Technologies Used
+
+- Python
+- Tkinter
+- SQLite
+- Matplotlib
+- Requests
+- JSON
+- OpenWeatherMap API
+- Pillow
+- Secrets
+- Pyperclip
+- GitHub
 
 ## Repository Structure
 
 ```text
-CODSOFT_TASKSNO/
+OIBSIP/
 │
 ├── README.md
 │
-├── Task_2-BMI_Calculator/
-│   ├── app.py
-│   ├── README.md
-│   ├── requirements.txt
-│   └── .gitignore
-│
-├── Task_3-Random_Password_Generator/
+├── Python-L2-BMICalculator/
 │   ├── app.py
 │   ├── README.md
 │   └── requirements.txt
 │
-└── Task_4-Weather_App/
+├── Python-L2-RandomPasswordGenerator/
+│   ├── app.py
+│   ├── README.md
+│   └── requirements.txt
+│
+└── Python-L2-WeatherApp/
     ├── app.py
     ├── README.md
     └── requirements.txt
-```
 
-## What I Am Learning
+## Repository Structure
 
-Through these internship projects, I am developing practical experience with:
-* Python programming
-* Problem solving and logical thinking
-* GUI development using Tkinter
-* Working with databases using SQLite
-* Data visualization using Matplotlib
-* Working with APIs and JSON data
-* Input validation and exception handling
-* Python libraries and modules
-* Secure programming concepts
-* Project organization using Git and GitHub
-* Building practical applications that can be extended toward AI-based solutions
+I would like to thank **Oasis Infobyte** for providing this internship 
+opportunity and the project requirements.
 
-## Running the Projects
+These tasks gave me an opportunity to practice Python through practical 
+projects and helped me become more confident in building, testing, documenting, 
+and sharing applications.
 
-Each project has its own folder and `requirements.txt` file.
+## Internship Submission
 
-First, clone this repository:
+**Organization:** Oasis Infobyte  
+**Track:** Python Programming  
+**Repository:** OIBSIP
 
-```bash
-git clone https://github.com/Rajweer67106/CODSOFT_TASKSNO.git
-```
-
-Move into the project you want to run. For example:
-
-```bash
-cd CODSOFT_TASKSNO/Task_2-BMI_Calculator
-```
-
-Install the required dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the application:
-
-```bash
-python app.py
-```
-
-For Tasks 3 and 4, refer to the README inside the respective project folder for any additional setup requirements.
-
-## Internship Progress
-
-I am building these projects progressively as part of my Artificial Intelligence internship.
-Each project gives me an opportunity to apply Python concepts to a practical problem while improving my understanding of software development, APIs, databases, user interfaces, and secure programming.
-
-## Author
-
-**Rajveer Kumar**
-
-Artificial Intelligence Intern
----
-
-*This repository will be updated as I complete additional tasks and improve the existing projects.*
+Thank you for taking the time to look through my work!
