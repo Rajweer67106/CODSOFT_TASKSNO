@@ -58,7 +58,7 @@ the user's requirements.
 
 **Technologies:** Python, Tkinter, Secrets, String, Pyperclip
 
-### 3. Weather App
+### 2. Weather App
 
 **Folder:** `Python-L2-WeatherApp`
 
