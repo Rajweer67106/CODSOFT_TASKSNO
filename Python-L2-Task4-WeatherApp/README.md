@@ -1,11 +1,9 @@
 # Task 4 – Weather App
 
 This project is part of my **OASIS INFOBYTE Python Programming Internship**.
-I built this weather application to practice working with a real-world API and
-displaying the returned information in a simple graphical interface.
+I built this weather application to practice working with a real-world API and displaying the returned information in a simple graphical interface.
 
 ## Features
-
 - Search weather by city
 - Current temperature
 - Celsius/Fahrenheit toggle
@@ -22,7 +20,6 @@ displaying the returned information in a simple graphical interface.
 - API rate-limit handling
 
 ## Technologies Used
-
 - Python
 - Tkinter
 - Requests
@@ -72,5 +69,4 @@ Python-L2-Task4-WeatherApp/
 
 ## What I Learned
 
-This project helped me understand API requests, JSON responses, GUI development,
-error handling, unit conversion, and displaying data received from an external service.
+This project helped me understand API requests, JSON responses, GUI development,error handling, unit conversion, and displaying data received from an external service.
