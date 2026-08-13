@@ -1,9 +1,9 @@
 # CODSOFT_TASKSNO
 My AI Internship tasks.
-# Python Programming Internship
+# Artificial Intelligence Internship
 
-Welcome to my Python Programming Internship repository.
-This repository contains the projects I completed as part of my Python programming internship. The main goal of these tasks was to improve my Python programming skills by building practical applications and learning how different Python libraries and technologies work together.
+Welcome to my Artificial Intelligence Internship repository.
+This repository contains the projects I completed as part of my Artificial IntelligencePython programming internship. The main goal of these tasks was to improve my Artificial Intelligence skills by building practical applications and learning how different Python libraries and technologies work together.
 I have focused on writing simple, understandable code while gradually adding more advanced features such as graphical interfaces, database storage, API integration, and data visualization.
 
 ## Projects
@@ -106,7 +106,7 @@ CODSOFT_TASKSNO/
 ## What I Learned
 
 Through these projects, I am getting hands-on experience with:
-* Python programming and problem solving
+* Artificial Intelligence, Python programming and problem solving
 * Functions, conditions, loops, and exception handling
 * Building graphical interfaces with Tkinter
 * Working with SQLite databases
@@ -150,15 +150,15 @@ The exact requirements may differ between projects, so check the README inside e
 
 ## Note
 
-This repository is created for my Python programming internship tasks. The projects are being developed step by step, starting with the BMI Calculator and followed by the Password Generator and Weather App.
+This repository is created for my Artificial Intelligence internship tasks. The projects are being developed step by step, starting with the BMI Calculator and followed by the Password Generator and Weather App.
 
-I am using this repository to keep my work organized and to track my progress while learning Python through practical projects.
+I am using this repository to keep my work organized and to track my progress while learning Artificial Intelligence through practical projects.
 
 ## Author
 
 **Rajweer Kumar**
 
-Python Programming Internship
+Artificial Intelligence Internship
 ---
 
 More projects and improvements will be added as the internship progresses.
