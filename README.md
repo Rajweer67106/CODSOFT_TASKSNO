@@ -15,103 +15,142 @@ Advanced Tier features.
 - **Track:** Python Programming
 - **Level:** Level 2 – Advanced
 - **Tasks Completed:** 3
-- ## Projects
 
-### 1. BMI Calculator
+## Projects
 
-**Folder:** `Python-L2-BMICalculator`
+### Task 1 – Voice Assistant
 
-A graphical BMI calculator built using Python. It allows users to enter their 
-weight and height, calculate their BMI, and view their BMI category.
+**Folder:** `Python-L2-Task1-VoiceAssistant`
 
-**Features:**
-- User-friendly GUI
-- BMI calculation
-- BMI category classification
-- Input validation
-- Colour-coded results
-- Multiple-user support
-- SQLite database storage
-- BMI history
-- BMI trend graph using Matplotlib
-- Database error handling
+This project is a simple Python-based voice assistant that listens to voice
+commands and responds using text-to-speech.
+I created this project to learn how Python can interact with users through
+voice and perform useful tasks based on spoken commands.
 
-**Technologies:** Python, Tkinter, SQLite, Matplotlib
+### Features
 
-### 2. Random Password Generator
+- Voice input using a microphone
+- Text-to-speech responses
+- Greeting and help commands
+- Current date and time
+- Google web search
+- Open Google and YouTube
+- Weather information
+- Voice-based reminders
+- Email functionality
+- Basic error handling
 
-**Folder:** `Python-L2-RandomPasswordGenerator`
+### Technologies Used
 
-A password generator that creates strong and customizable passwords based on 
-the user's requirements.
+- Python
+- SpeechRecognition
+- pyttsx3
+- Requests
+- PyAudio
+- OpenWeatherMap API
+- SMTP
 
-**Features:**
-- Custom password length
-- Uppercase and lowercase letters
-- Numbers and symbols
-- Secure password generation using `secrets`
-- Password strength indicator
-- Copy password to clipboard
-- Exclude ambiguous characters
-- Password generation history
-- GUI interface
+### Task 4 – Weather App
 
-**Technologies:** Python, Tkinter, Secrets, String, Pyperclip
+**Folder:** `Python-L2-Task4-WeatherApp`
 
-### 2. Weather App
+This project is a graphical weather application that uses the OpenWeatherMap
+API to retrieve current weather information for a city.
+The main focus of this project was learning how to work with an external API
+and display the returned information in a simple and easy-to-use GUI.
 
-**Folder:** `Python-L2-WeatherApp`
+### Features
 
-A graphical weather application that retrieves real-time weather information 
-using the OpenWeatherMap API.
-
-**Features:**
 - Search weather by city
 - Current temperature
 - Celsius/Fahrenheit toggle
-- Humidity and wind speed
-- Weather condition description
-- Weather icons
-- Hourly forecast
-- Five-day forecast
-- Automatic location detection
-- API and network error handling
+- Weather condition
+- Feels-like temperature
+- Humidity
+- Wind speed
+- Atmospheric pressure
+- Weather icon
+- API error handling
+- Network and timeout handling
+- Invalid city handling
 
-**Technologies:** Python, Tkinter, Requests, JSON, OpenWeatherMap API, Pillow
-
-##  What I Learned
-
-These projects helped me gain practical experience in Python programming and 
-application development.
-
-During the internship, I worked with:
-
-- Python GUI development
-- Input validation and error handling
-- SQLite databases
-- External APIs
-- JSON data
-- Data visualization
-- Secure password generation
-- Clipboard integration
-- Project documentation
-- Git and GitHub
-
-I also learned how to break a project into smaller features and build each 
-feature step by step.
-
-## Technologies Used
+### Technologies Used
 
 - Python
 - Tkinter
-- SQLite
-- Matplotlib
 - Requests
-- JSON
-- OpenWeatherMap API
 - Pillow
-- Secrets
-- Pyperclip
+- OpenWeatherMap API
+
+### Task 5 – Chat Application
+
+**Folder:** `Python-L2-Task5-ChatApplication`
+
+This project is a simple client-server chat application built using Python
+socket programming.
+The application allows multiple clients to connect to a server and exchange
+messages in real time.
+I built this project to understand how network communication works between
+different programs.
+
+### Features
+
+- Client-server architecture
+- TCP socket communication
+- Multiple clients
+- Username support
+- Real-time message broadcasting
+- Join and leave notifications
+- Graphical chat interface
+- Background message receiving
+- Graceful disconnection
+- Basic connection error handling
+
+### Technologies Used
+
+- Python
+- Socket Programming
+- TCP/IP
+- Threading
+- Tkinter
+
+
+##  What I Learned
+
+Working on these projects gave me practical experience with different areas
+of Python programming.
+
+During the internship, I learned about:
+
+- Python GUI development
+- Speech recognition and text-to-speech
+- Working with external APIs
+- JSON and API responses
+- Error and exception handling
+- Socket programming
+- Client-server communication
+- TCP/IP networking
+- Multithreading
+- Working with Python libraries
+- Organizing projects on GitHub
+- Writing project documentation
+
+These tasks also helped me understand how individual Python concepts can be
+combined to build complete applications.
+
+## Main Technologies
+
+- Python
+- Tkinter
+- SpeechRecognition
+- pyttsx3
+- Requests
+- Pillow
+- OpenWeatherMap API
+- Socket Programming
+- TCP/IP
+- Threading
+- SMTP
 - GitHub
 
 ## Repository Structure
@@ -121,21 +160,22 @@ OIBSIP/
 │
 ├── README.md
 │
-├── Python-L2-BMICalculator/
+├── Python-L2-Task1-VoiceAssistant/
 │   ├── app.py
-│   ├── README.md
-│   └── requirements.txt
+│   ├── requirements.txt
+│   └── README.md
 │
-├── Python-L2-RandomPasswordGenerator/
+├── Python-L2-Task4-WeatherApp/
 │   ├── app.py
-│   ├── README.md
-│   └── requirements.txt
+│   ├── requirements.txt
+│   └── README.md
 │
-└── Python-L2-WeatherApp/
-    ├── app.py
-    ├── README.md
-    └── requirements.txt
+└── Python-L2-Task5-ChatApplication/
+    ├── server.py
+    ├── client.py
+    └── README.md
 ```
+
 ## API Keys
 
 The Weather App uses the OpenWeatherMap API.
