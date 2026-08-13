@@ -1,7 +1,6 @@
 # Task 1 – Voice Assistant
 
 This project is part of my OASIS INFOBYTE Python Programming Internship.
-
 I built this voice assistant to practice speech recognition, text-to-speech, API integration, web browsing, reminders, and basic automation using Python.
 
 ## Features
@@ -39,9 +38,7 @@ A working microphone is required.
 ## API and Security
 
 The weather feature uses `OPENWEATHER_API_KEY`.
-
 The email feature uses `VOICE_EMAIL`, `VOICE_EMAIL_PASSWORD`, and `VOICE_EMAIL_RECEIVER`.
-
 Keep API keys and passwords private. Do not upload them to GitHub.
 
 ## Project Structure
