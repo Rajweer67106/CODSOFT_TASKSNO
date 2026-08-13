@@ -59,8 +59,7 @@ def get_weather(city):
         response = requests.get(
             "https://api.openweathermap.org/data/2.5/weather",
             params={"q": city, "appid": api_key, "units": "metric"},
-            timeout=10
-        )
+            timeout=10)
         if response.status_code == 404:
             speak("I could not find that city.")
             return
@@ -101,8 +100,7 @@ def send_email():
     try:
         with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
             server.login(sender, password)
-            server.sendmail(
-                sender, receiver,
+            server.sendmail(sender, receiver,
                 f"Subject: Voice Assistant Message\n\n{message}"
             )
         speak("The email was sent successfully.")
@@ -154,7 +152,6 @@ def main():
     speak("Hello! I am your Python voice assistant. Say help to hear what I can do.")
     while process_command(listen()):
         pass
-
 
 if __name__ == "__main__":
     try:
