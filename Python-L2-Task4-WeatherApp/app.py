@@ -2,6 +2,7 @@ import os
 import tkinter as tk
 from tkinter import ttk, messagebox
 from datetime import datetime
+from pathlib import Path
 import requests
 from PIL import Image, ImageTk
 
@@ -205,8 +206,6 @@ class WeatherApp:
             self.icon_label.config(image="")
 
 if __name__ == "__main__":
-    from pathlib import Path
-
     root = tk.Tk()
     app = WeatherApp(root)
     root.mainloop()
