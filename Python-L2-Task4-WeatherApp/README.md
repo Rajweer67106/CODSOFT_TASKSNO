@@ -1,7 +1,6 @@
 # Task 4 – Weather App
 
 This project is part of my **OASIS INFOBYTE Python Programming Internship**.
-
 I built this weather application to practice working with a real-world API and
 displaying the returned information in a simple graphical interface.
 
@@ -60,7 +59,7 @@ python app.py
 
 ## Security
 
-Do not put your API key directly inside `app.py` and do not upload it to GitHub.
+Do not put your API key directly inside `app.py`.
 
 ## Project Structure
 
