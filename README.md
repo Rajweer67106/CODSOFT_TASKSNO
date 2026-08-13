@@ -3,18 +3,19 @@ My AI Internship tasks.
 # Artificial Intelligence Internship
 
 Welcome to my Artificial Intelligence Internship repository.
-This repository contains the projects I completed as part of my Artificial IntelligencePython programming internship. The main goal of these tasks was to improve my Artificial Intelligence skills by building practical applications and learning how different Python libraries and technologies work together.
-I have focused on writing simple, understandable code while gradually adding more advanced features such as graphical interfaces, database storage, API integration, and data visualization.
+This repository contains the projects I am developing as part of my Artificial Intelligence internship. The current tasks focus on building practical applications with Python and understanding the programming concepts, libraries, APIs, databases, and problem-solving skills that are useful in AI development.
+I am completing the projects step by step, starting with Python-based applications and gradually working with more advanced features and technologies.
 
 ## Projects
 
 ### Task 2 — BMI Calculator
 
-A GUI-based BMI Calculator built using Python.
+A GUI-based BMI Calculator developed using Python.
+The application allows users to calculate their BMI, classify the result, save records, and view BMI trends over time.
 
 **Features:**
 * Calculate BMI using weight and height
-* Classify BMI as Underweight, Normal, Overweight, or Obese
+* BMI classification
 * Input validation and error handling
 * User-friendly graphical interface
 * Support for multiple users
@@ -33,16 +34,17 @@ Project folder: `Task_2-BMI_Calculator`
 
 ### Task 3 — Random Password Generator
 
-A password generator designed to create strong and secure passwords based on the user's requirements.
+A Python application for generating strong and secure random passwords based on user-selected requirements.
+The project focuses on secure random generation, user input handling, password strength, and GUI development.
 
-**Planned features:**
+**Features:**
 * Custom password length
 * Uppercase and lowercase letters
 * Numbers and symbols
 * Secure password generation using Python's `secrets` module
 * Password strength indicator
 * Copy password to clipboard
-* Option to exclude confusing characters
+* Option to exclude ambiguous characters
 * Recent password generation history
 
 **Technologies used:**
@@ -56,9 +58,10 @@ Project folder: `Task_3-Random_Password_Generator`
 
 ### Task 4 — Weather App
 
-A weather application that fetches real-time weather information for a location entered by the user.
+A Python application that retrieves real-time weather information using a weather API.
+The project demonstrates API integration, JSON data processing, GUI development, and handling real-world data.
 
-**Planned features:**
+**Features:**
 * Search weather by city
 * Current temperature
 * Humidity
@@ -68,7 +71,7 @@ A weather application that fetches real-time weather information for a location 
 * Hourly forecast
 * Five-day forecast
 * Celsius/Fahrenheit conversion
-* API error handling
+* API and network error handling
 
 **Technologies used:**
 * Python
@@ -77,6 +80,7 @@ A weather application that fetches real-time weather information for a location 
 * OpenWeatherMap API
 
 Project folder: `Task_4-Weather_App`
+
 ---
 
 ## Repository Structure
@@ -103,62 +107,61 @@ CODSOFT_TASKSNO/
     └── requirements.txt
 ```
 
-## What I Learned
+## What I Am Learning
 
-Through these projects, I am getting hands-on experience with:
-* Artificial Intelligence, Python programming and problem solving
-* Functions, conditions, loops, and exception handling
-* Building graphical interfaces with Tkinter
-* Working with SQLite databases
-* Creating data visualizations with Matplotlib
-* Using external APIs
-* Handling user input and errors
-* Working with Python libraries
-* Organizing projects using Git and GitHub
+Through these internship projects, I am developing practical experience with:
+* Python programming
+* Problem solving and logical thinking
+* GUI development using Tkinter
+* Working with databases using SQLite
+* Data visualization using Matplotlib
+* Working with APIs and JSON data
+* Input validation and exception handling
+* Python libraries and modules
+* Secure programming concepts
+* Project organization using Git and GitHub
+* Building practical applications that can be extended toward AI-based solutions
 
-## 🛠️ Running the Projects
+## Running the Projects
 
 Each project has its own folder and `requirements.txt` file.
 
-First, clone the repository:
+First, clone this repository:
 
 ```bash
 git clone https://github.com/Rajweer67106/CODSOFT_TASKSNO.git
 ```
 
-Then move into the project you want to run.
-
-For example:
+Move into the project you want to run. For example:
 
 ```bash
 cd CODSOFT_TASKSNO/Task_2-BMI_Calculator
 ```
 
-Install the required packages:
+Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Then run the application:
+Run the application:
 
 ```bash
 python app.py
 ```
 
-The exact requirements may differ between projects, so check the README inside each project folder before running it.
+For Tasks 3 and 4, refer to the README inside the respective project folder for any additional setup requirements.
 
-## Note
+## Internship Progress
 
-This repository is created for my Artificial Intelligence internship tasks. The projects are being developed step by step, starting with the BMI Calculator and followed by the Password Generator and Weather App.
-
-I am using this repository to keep my work organized and to track my progress while learning Artificial Intelligence through practical projects.
+I am building these projects progressively as part of my Artificial Intelligence internship.
+Each project gives me an opportunity to apply Python concepts to a practical problem while improving my understanding of software development, APIs, databases, user interfaces, and secure programming.
 
 ## Author
 
-**Rajweer Kumar**
+**Rajveer Kumar**
 
-Artificial Intelligence Internship
+Artificial Intelligence Intern
 ---
 
-More projects and improvements will be added as the internship progresses.
+*This repository will be updated as I complete additional tasks and improve the existing projects.*
