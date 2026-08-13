@@ -15,7 +15,7 @@ Advanced Tier features.
 - **Track:** Python Programming
 - **Level:** Level 2 – Advanced
 - **Tasks Completed:** 3
-- ## 📂 Projects
+- ## Projects
 
 ### 1. BMI Calculator
 
@@ -135,8 +135,15 @@ OIBSIP/
     ├── app.py
     ├── README.md
     └── requirements.txt
+```
+## API Keys
 
-## Repository Structure
+The Weather App uses the OpenWeatherMap API.
+For security reasons, API keys is not uploaded directly to GitHub.
+API key is required, it is stored locally or through an environment
+variable rather than being committed to the repository.
+
+## Acknowledgement
 
 I would like to thank **Oasis Infobyte** for providing this internship 
 opportunity and the project requirements.
