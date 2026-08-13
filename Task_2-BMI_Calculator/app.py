@@ -57,11 +57,9 @@ class BMICalculatorApp:
         main = ttk.Frame(self.root, padding=18)
         main.pack(fill="both", expand=True)
         ttk.Label(main, text="BMI Calculator", style="Title.TLabel").pack(anchor="w")
-        ttk.Label(
-            main,
+        ttk.Label(main,
             text="Calculate BMI, save records for multiple users, and visualize BMI trends.",
-            style="Subtitle.TLabel"
-        ).pack(anchor="w", pady=(0, 14))
+            style="Subtitle.TLabel").pack(anchor="w", pady=(0, 14))
         input_frame = ttk.LabelFrame(main, text="BMI Calculation", padding=14)
         input_frame.pack(fill="x")
         # User
@@ -83,37 +81,31 @@ class BMICalculatorApp:
         ttk.Entry(input_frame, textvariable=self.height_var, width=28).grid(
             row=2, column=1, sticky="w", padx=5, pady=7
         )
-        ttk.Label(
-            input_frame,
+        ttk.Label(input_frame,
             text="Example: 70 kg and 1.75 m",
             foreground="gray"
         ).grid(row=3, column=0, columnspan=2, sticky="w", padx=5)
         button_frame = ttk.Frame(input_frame)
         button_frame.grid(row=0, column=2, rowspan=4, padx=(35, 5), sticky="ns")
-        ttk.Button(
-            button_frame, text="Calculate & Save",
+        ttk.Button(button_frame, text="Calculate & Save",
             command=self.calculate_and_save,
             style="Action.TButton"
         ).pack(fill="x", pady=4)
-        ttk.Button(
-            button_frame, text="Clear",
+        ttk.Button(button_frame, text="Clear",
             command=self.clear_inputs
         ).pack(fill="x", pady=4)
-        ttk.Button(
-            button_frame, text="Show BMI Trend",
+        ttk.Button(button_frame, text="Show BMI Trend",
             command=self.show_trend
         ).pack(fill="x", pady=4)
         result_frame = ttk.LabelFrame(main, text="Result", padding=14)
         result_frame.pack(fill="x", pady=14)
-        self.result_label = tk.Label(
-            result_frame,
+        self.result_label = tk.Label(result_frame,
             text="Enter your details and click Calculate & Save.",
             font=("Segoe UI", 14, "bold"),
             padx=10, pady=10
         )
         self.result_label.pack(fill="x")
-        ttk.Label(
-            result_frame,
+        ttk.Label(result_frame,
             text="BMI categories: Underweight < 18.5   |   Normal 18.5–24.9   |   Overweight 25–29.9   |   Obese ≥ 30",
             font=("Segoe UI", 9)
         ).pack()
@@ -226,8 +218,7 @@ class BMICalculatorApp:
             """)
             rows = cursor.fetchall()
             for row in rows:
-                self.tree.insert(
-                    "", "end",
+                self.tree.insert("", "end",
                     values=(
                         row[0], row[1],
                         f"{row[2]:.2f}",
@@ -272,8 +263,7 @@ class BMICalculatorApp:
             """, (username,))
             rows = cursor.fetchall()
             if not rows:
-                messagebox.showinfo(
-                    "No Data",
+                messagebox.showinfo("No Data",
                     f"No BMI records found for '{username}'. Calculate and save a BMI first."
                 )
                 return
