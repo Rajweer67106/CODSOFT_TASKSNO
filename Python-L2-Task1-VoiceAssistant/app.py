@@ -56,10 +56,8 @@ def get_weather(city):
         speak("The weather API key has not been configured.")
         return
     try:
-        response = requests.get(
-            "https://api.openweathermap.org/data/2.5/weather",
-            params={"q": city, "appid": api_key, "units": "metric"},
-            timeout=10)
+        response = requests.get("https://api.openweathermap.org/data/2.5/weather",
+            params={"q": city, "appid": api_key, "units": "metric"},timeout=10)
         if response.status_code == 404:
             speak("I could not find that city.")
             return
@@ -68,11 +66,9 @@ def get_weather(city):
             return
         response.raise_for_status()
         data = response.json()
-        speak(
-            f"The weather in {city} is {data['weather'][0]['description']}. "
+        speak(f"The weather in {city} is {data['weather'][0]['description']}. "
             f"The temperature is {data['main']['temp']:.1f} degrees Celsius "
-            f"with {data['main']['humidity']} percent humidity."
-        )
+            f"with {data['main']['humidity']} percent humidity.")
     except requests.RequestException:
         speak("I could not connect to the weather service.")
 
@@ -84,7 +80,6 @@ def create_reminder(minutes, message):
     threading.Thread(target=reminder, daemon=True).start()
     speak(f"I will remind you in {minutes} minutes.")
 
-
 def send_email():
     sender = os.getenv("VOICE_EMAIL")
     password = os.getenv("VOICE_EMAIL_PASSWORD")
@@ -92,7 +87,6 @@ def send_email():
     if not sender or not password or not receiver:
         speak("Email settings have not been configured.")
         return
-
     speak("What should I write in the email?")
     message = listen()
     if not message:
@@ -100,13 +94,10 @@ def send_email():
     try:
         with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
             server.login(sender, password)
-            server.sendmail(sender, receiver,
-                f"Subject: Voice Assistant Message\n\n{message}"
-            )
+            server.sendmail(sender, receiver,f"Subject: Voice Assistant Message\n\n{message}")
         speak("The email was sent successfully.")
     except smtplib.SMTPException:
         speak("I could not send the email. Please check the settings.")
-
 
 def process_command(command):
     if not command:
