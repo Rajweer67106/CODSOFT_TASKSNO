@@ -1,7 +1,6 @@
 # Task 3 — Random Password Generator
 
 This project is part of my Artificial Intelligence Internship and Python Programming Track.
-
 It is a desktop password generator that creates strong passwords according to the user's selected requirements. The project also demonstrates secure random generation, GUI development, clipboard integration, validation, and session history.
 
 ## Features
