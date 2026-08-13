@@ -41,7 +41,8 @@ def handle_client(client, address):
         pass
     finally:
         with lock:
-            username = clients.pop(client, username if "username" in locals() else "Unknown")
+            username = clients.pop(client, locals().get("username", "Unknown"))
+
         try:
             client.close()
         except OSError:
