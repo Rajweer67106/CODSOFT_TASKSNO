@@ -80,12 +80,6 @@ BMI is calculated as:
 BMI = weight (kg) / height (m)²
 ```
 
-### Why SQLite?
-SQLite provides persistent local storage without requiring a separate database server. Each calculation is stored with the user name, weight, height, BMI, category, and timestamp.
-
-### Why Matplotlib?
-Matplotlib is used to visualize a user's BMI history as a line chart, making changes over time easy to understand.
-
 ### Input validation
 The application rejects:
 - Empty user names
